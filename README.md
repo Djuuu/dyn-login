@@ -17,6 +17,6 @@ Installation
 To automate the process, you can then add the script in a crontab:
 ```
 # Every sunday at 5 AM
-0 5 * * 0 php /path/to/dyn-login/dyn-login.php
+0 5 * * 0 php /path/to/dyn-login/dynlogin.php
 ```
 

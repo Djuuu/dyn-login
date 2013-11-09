@@ -11,7 +11,7 @@ Requirements
 Installation
 ------------
 * Get the source code (git clone, zip archive, whatever)
-* Copy conf.dist.php to conf.php and fill in your dyn.com credentials
+* Copy `conf.dist.php` to `conf.php` and fill in your dyn.com credentials
 * Call script: `php dynlogin.php`
 
 To automate the process, you can then add the script in a crontab:

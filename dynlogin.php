@@ -17,7 +17,7 @@ if (!extension_loaded('curl')) {
     return 1;
 }
 
-// Load conf
+// Load configuration
 require_once __DIR__.DIRECTORY_SEPARATOR.'conf.php';
 
 // Cookie file
@@ -111,7 +111,7 @@ function getLoginForm($url)
 // Procedural **********************************************************************
 
 
-// Cleazr cookie
+// Clear cookie
 
 if (file_exists($CKFILE)) {
     unlink($CKFILE);

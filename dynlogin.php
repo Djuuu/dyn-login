@@ -12,6 +12,11 @@ if (!file_exists($CONF_FILE)) {
     return 1;
 }
 
+if (!extension_loaded('curl')) {
+    die("Required extension 'curl' is not loaded.");
+    return 1;
+}
+
 // Load conf
 require_once __DIR__.DIRECTORY_SEPARATOR.'conf.php';
 

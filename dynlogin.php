@@ -31,8 +31,7 @@ $ACCOUNT_URL = "https://account.dyn.com/";
 // Functions **********************************************************************
 
 /**
- * Sends a web request (GET by default, POST if $post is provided):
- * If $post is provided
+ * Sends a web request (GET by default, POST if $post is provided)
  * @param string $url
  * @param array  $post
  * @return mixed
